@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Group Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Groups.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="HomePage.html">🏠 Home</a>
+      <a href="DiscussionForum.html">📚 Forum</a>
+      <a href="Groups.html">👥 Groups</a>
+      <a href="Contact.html">📞 Contact</a>
+      <a href="LoginPage.html">🔑 Login</a>
+      <a href="RegisterPage.html">📝 Register</a>
+      <a href="Resources.html">📚 Resources</a>
+    </nav>
+  </header>
+  <div class="card">
+    <h1>Study Group Code Generator</h1>
+    <p>Enter a name and subject, then generate a shareable study group code.</p>
+    <label for="groupName">Group name</label>
+    <input id="groupName" placeholder="e.g. Biology Review" />
+    <label for="subject">Subject</label>
+    <input id="subject" placeholder="e.g. Chemistry" />
+    <button id="generate">Generate Code</button>
+    <div id="result">
+      <h2>Study Group Code</h2>
+      <p id="code"></p>
+      <p id="details"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
